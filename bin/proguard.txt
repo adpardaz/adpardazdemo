@@ -1,0 +1,12 @@
+# view res/layout/activity_main.xml #generated:47
+-keep class com.adbaan.AdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.adbaan.AdViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.adbaan.VideoAdViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.adpardaz.adpardaztest.MainActivity { <init>(...); }
+

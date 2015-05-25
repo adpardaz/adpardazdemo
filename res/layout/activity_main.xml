@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171b46"
+    android:orientation="vertical"
+    tools:context="com.adpardaz.adpardaztest.MainActivity" >
+
+    <Button
+        android:id="@+id/video_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Video Ad"
+        android:textColor="#fafafa" />
+
+    <ProgressBar
+        android:id="@+id/percentage"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:max="100"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/fullscreen_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="FullScreen Ad"
+        android:textColor="#fafafa" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.adbaan.AdView
+            android:id="@+id/banner"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            token="OJDIROBW6Y" />
+    </RelativeLayout>
+
+</LinearLayout>
